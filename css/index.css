@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Intro  */
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/Background.png) center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro__title {
+     width: 470px;
+    height: 126px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.intro__subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #F7F3F2;
+    margin: 28.5px auto 33.5px;
+}
+
+/* container */
+
+.container { 
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+header {
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 46px 0;
+}
+
+.header__logo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+/* Nav */
+
+.nav__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    transition: 0.2s linear;
+    margin: 0 10px;
+}
+
+.nav__link:hover {
+    color: #FFC401;
+}
+
+/* Button */
+
+.btn {
+    text-decoration-line: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: red;
+    border: 2px solid #fffff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 40px;
+}
+
