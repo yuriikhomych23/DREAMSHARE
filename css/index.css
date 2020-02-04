@@ -124,10 +124,36 @@ header {
     height: 40px;
 }
 
+.section__title__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see__other__partners {
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+    text-decoration: none;
+}
+
 
 /*Section*/
 
-.section__header__title{
+.first-section {
+    text-align: center;
+}
+
+
+.section__header__title__text{
     padding: 90px 0 35px 0;
     font-family: Montserrat;
     font-style: normal;
@@ -138,18 +164,36 @@ header {
     color: #444444;
 }
 
-.section__header {
-    text-align: center;
+.section__title {
+    width: 941px;
+    height: 361px;
+    margin: 95px auto 0;
 }
 
-
-/*Image*/
-
+.section__title__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+}
 
 .section__header__image {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
+.section__image__partner {
+    display: flex;
+    justify-content: space-;
+    margin: 35px auto 17px;
+}
+
+
+
+/*Image Step*/
+
 .image__step1 {
     background: url(../img/step-1.png)  no-repeat;
     width: 300px;
@@ -165,7 +209,6 @@ header {
     width: 300px;
     height: 400px;
 }
-
 
 /*Image Rectangle*/
 .background__rectangle1 {
@@ -310,3 +353,72 @@ header {
 }
 
 
+
+/*Image Second Container*/
+
+.second__section__header__image1 {
+    background: url(../img/sports-and-activis.png) no-repeat;
+    width: 300px;
+    height: 310px;
+}
+.second__section__header__image2 {
+    background: url(../img/wellness-and-health.png) no-repeat;
+    width: 300px;
+    height: 310px;
+}
+.second__section__header__image3 {
+    background: url(../img/extreme-sports-and-expedition.png) no-repeat;
+    width: 300px;
+    height: 310px;
+}
+.second__section__header__image4 {
+    background: url(../img/games.png) no-repeat;
+    width: 300px;
+    height: 310px;
+}
+.second__section__header__image5 {
+    background: url(../img/culture-and-education.png) no-repeat;
+    width: 620px;
+    height: 310px;
+}
+.second__section__header__image6 {
+    background: url(../img/enjoment-and-relaxation.png) no-repeat;
+    width: 620px;
+    height: 310px;
+}
+.second__section__header__image7{
+    background: url(../img/travelling.png) no-repeat;
+    width: 300px;
+    height: 310px;
+}
+
+.first, .second, .third {
+    display: flex;
+}
+
+
+/*Name Patners*/
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    padding: 17px 0 0 0;
+}
+
+.image__partner__description {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    padding: 12px 0 0 0;
+}
