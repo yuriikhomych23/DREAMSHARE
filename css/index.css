@@ -85,6 +85,40 @@ header {
     text-transform: uppercase;
 }
 
+@media screen and (min-width: 1440px) and (max-width: 1920px){
+    .intro, .container {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 968px) and (max-width: 1440px){
+    .intro, .container {
+        width: 100%;
+        height: 700px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 968px){
+    .intro, .container {
+        width: 100%;
+        height: 60vh;
+    }
+}
+@media screen and (min-width: 508px) and (max-width: 768px){
+    .intro, .container {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+
+
+
+
+
+
 
 /* Nav */
 
@@ -164,7 +198,7 @@ header {
 
 
 /*Section*/
-
+/*First Section */
 .first-section {
     text-align: center;
 }
@@ -206,37 +240,6 @@ header {
     justify-content: space-;
     margin: 35px auto 17px;
 }
-
-.second__section__image__description {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;   
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-}
-
-
-.third__section__header__text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #666666;
-}
-
-.third__section__header__inner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /*Image Step*/
 
@@ -398,7 +401,45 @@ header {
 
 }
 
+/*Name Patners*/
 
+.name {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    padding: 17px 0 0 0;
+}
+
+.image__partner__description {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    padding: 12px 0 0 0;
+}
+
+
+
+/*Second section*/
+.second__section__image__description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;   
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
 
 /*Image Second Container*/
 
@@ -460,11 +501,6 @@ header {
 }
 
 
-.gh {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /*Second Section Blocks*/
 .first__block, .second__block, .third__block {
@@ -474,55 +510,31 @@ header {
 }
 
 
-/*Name Patners*/
 
-.name {
-    display: flex;
-    justify-content: center;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    color: #444444;
-    padding: 17px 0 0 0;
-}
 
-.image__partner__description {
-    display: flex;
-    justify-content: center;
+/*Thirs Section*/
+.third__section__header__text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: #666666;
-    padding: 12px 0 0 0;
 }
 
-
-/*Input*/
-
-.input__field {
+.third__section__header__inner {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 37px 0 111px;
 }
 
-.input {
-    margin:0 10px 0 0;
-    width: 299px;
-    height: 40px;
-    background: #FFFFFF;
-    border: 1px solid #D4D4D4;
-    box-sizing: border-box;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
-    border-radius: 3px;
-}
 
 
 /*Footer*/
+
 
 .footer__inner {
     display: flex;
@@ -533,6 +545,28 @@ header {
     font-size: 14px;
     line-height: 17px;
     color: #444444;
+}
+
+/*Input*/
+
+.input__field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 37px 0 111px;
+}
+
+/**/
+
+.input {
+    margin:0 10px 0 0;
+    width: 299px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
 }
 
 .dreamshare {
