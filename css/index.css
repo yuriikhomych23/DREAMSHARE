@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
 
 * {
     margin: 0;
@@ -240,6 +240,73 @@ header {
     letter-spacing: 2px;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+
+/*Image Description*/
+
+.image1__title, .image3__title {
+    position: relative;
+    width: 250px;
+    height: 58px;
+    left: 25px;
+    top: 240px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    
+}
+
+
+.image1__subtitle, .image3__subtitle {
+    position: relative;
+    width: 250px;
+    height: 58px;
+    left: 25px;
+    top: 260px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+
+}
+
+.image2__title {
+    position: relative;
+    width: 250px;
+    height: 29px;
+    left: 25px;
+    top: 260px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.image2__subtitle {
+    position: relative;
+    width: 250px;
+    height: 57px;
+    left: 25px;
+    top: 275px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #E3E3E3;
+
 }
 
 
