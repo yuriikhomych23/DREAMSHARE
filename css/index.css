@@ -190,6 +190,17 @@ header {
     margin: 35px auto 17px;
 }
 
+.second__section__image__description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;   
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
 
 
 /*Image Step*/
@@ -360,40 +371,71 @@ header {
     background: url(../img/sports-and-activis.png) no-repeat;
     width: 300px;
     height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second__section__header__image2 {
     background: url(../img/wellness-and-health.png) no-repeat;
     width: 300px;
     height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second__section__header__image3 {
     background: url(../img/extreme-sports-and-expedition.png) no-repeat;
     width: 300px;
     height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second__section__header__image4 {
     background: url(../img/games.png) no-repeat;
     width: 300px;
     height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second__section__header__image5 {
     background: url(../img/culture-and-education.png) no-repeat;
     width: 620px;
     height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second__section__header__image6 {
     background: url(../img/enjoment-and-relaxation.png) no-repeat;
     width: 620px;
     height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second__section__header__image7{
     background: url(../img/travelling.png) no-repeat;
     width: 300px;
     height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.first, .second, .third {
+
+.gh {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Second Section Blocks*/
+.first__block, .second__block, .third__block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
 
@@ -422,3 +464,10 @@ header {
     color: #666666;
     padding: 12px 0 0 0;
 }
+
+
+
+
+
+
+
