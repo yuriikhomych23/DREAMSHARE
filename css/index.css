@@ -432,7 +432,7 @@ header {
     height: 310px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 .second__section__header__image4 {
     background: url(../img/games.png) no-repeat;
@@ -473,7 +473,7 @@ header {
 .first__block, .second__block, .third__block {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    margin-top: 20px;
 }
 
 
@@ -516,7 +516,7 @@ header {
 
 /*Input*/
 
-.input__field {
+.input__field__search {
     display: flex;
     justify-content: center;
     align-items: center;
