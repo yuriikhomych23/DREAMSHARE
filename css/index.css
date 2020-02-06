@@ -204,7 +204,7 @@ header {
 
 .section__image__partner {
     display: flex;
-    justify-content: space-;
+    justify-content: space-between;
     margin: 35px auto 17px;
 }
 
@@ -577,4 +577,5 @@ hr {
     height: 24px;
     padding-top: 7px;
 }
+
 
