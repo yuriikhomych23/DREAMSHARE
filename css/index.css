@@ -51,7 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container { 
     width: 100%;
-    max-width: 940px;
+    max-width: 970px;
+    padding: 0 30px;
     margin: 0 auto;
 }
 
@@ -579,3 +580,22 @@ hr {
 }
 
 
+/*Media*/
+
+@media (max-width: 970px) {
+    .intro {
+        width: 970px;
+        height: 700px;
+    }
+    .intro__title {
+        font-size: 44px;
+    }
+    .intro__subtitle {
+        font-size: 20px
+    }
+    .btn {
+        width: 200px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
