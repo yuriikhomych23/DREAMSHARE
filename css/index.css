@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container { 
     width: 100%;
-    max-width: 970px;
-    padding: 0 30px;
+    max-width: 990px;
+    padding: 0 50px;
     margin: 0 auto;
 }
 
@@ -598,4 +598,39 @@ hr {
         height: 30px;
         font-size: 13px;
     }
+    .section__header__title__text {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .inner__step1, .inner__step2, .inner__step3 {
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 2px;
+    }
+    .background__rectangle1, .background__rectangle2, .background__rectangle3{
+        width: 70px;
+        height: 20px;
+    }
+    .image1__title, .image2__title, .image3__title
+     {
+        font-size: 24px;
+        line-height: 20px;
+        width: 196px;
+        height: 58px;
+    }
+
+    .image1__subtitle, .image3__subtitle {  
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+        width: 196px;
+        height: 76px;
+    }
+    .image2__subtitle {
+        width: 196px;
+        height: 37px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+     }
 }
