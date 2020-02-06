@@ -51,8 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container { 
     width: 100%;
-    max-width: 990px;
-    padding: 0 50px;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -200,7 +199,7 @@ header {
 
 .section__header__image {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .section__image__partner {
@@ -583,6 +582,14 @@ hr {
 /*Media*/
 
 @media (max-width: 970px) {
+
+    /* Header */
+
+    .header__inner{
+         padding: 0 50px;
+     }
+
+    /* INTRO */
     .intro {
         width: 970px;
         height: 700px;
@@ -598,6 +605,8 @@ hr {
         height: 30px;
         font-size: 13px;
     }
+
+    /* FIRST SECTION */
     .section__header__title__text {
         font-size: 22px;
         line-height: 27px;
@@ -606,13 +615,13 @@ hr {
         font-size: 10px;
         line-height: 12px;
         letter-spacing: 2px;
+
     }
     .background__rectangle1, .background__rectangle2, .background__rectangle3{
         width: 70px;
         height: 20px;
     }
-    .image1__title, .image2__title, .image3__title
-     {
+    .image1__title, .image2__title, .image3__title {
         font-size: 24px;
         line-height: 20px;
         width: 196px;
@@ -632,5 +641,20 @@ hr {
         font-weight: 300;
         font-size: 14px;
         line-height: 14px;
-     }
+    }
+    .section__header__image {
+        height: 461px;
+        margin: 0 auto;
+    }
+    
+
+
+
+
+
+    .section__title {
+        width: 492px;
+        height: 605px;
+    }
+    
 }
