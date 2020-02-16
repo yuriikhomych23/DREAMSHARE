@@ -583,6 +583,13 @@ hr {
 
 @media (max-width: 970px) {
 
+    /* CONTAINER */
+    .container {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
     /* Header */
 
     .header__inner{
@@ -595,66 +602,43 @@ hr {
         height: 700px;
     }
     .intro__title {
-        font-size: 44px;
+        font-size: 52px;
     }
     .intro__subtitle {
-        font-size: 20px
+        font-size: 24px
     }
     .btn {
-        width: 200px;
-        height: 30px;
-        font-size: 13px;
+        width: 225px;
+        height: 40px;
     }
 
     /* FIRST SECTION */
-    .section__header__title__text {
-        font-size: 22px;
-        line-height: 27px;
-    }
-    .inner__step1, .inner__step2, .inner__step3 {
-        font-size: 10px;
-        line-height: 12px;
-        letter-spacing: 2px;
 
-    }
-    .background__rectangle1, .background__rectangle2, .background__rectangle3{
-        width: 70px;
-        height: 20px;
-    }
-    .image1__title, .image2__title, .image3__title {
-        font-size: 24px;
-        line-height: 20px;
-        width: 196px;
-        height: 58px;
-    }
-
-    .image1__subtitle, .image3__subtitle {  
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 14px;
-        width: 196px;
-        height: 76px;
+    .image__step1, .image__step2, .image__step3{
+        width: 236px;
+        height: 400px;
     }
     .image2__subtitle {
+        position: relative;
         width: 196px;
-        height: 37px;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 14px;
+        height: 56px;
+        left: 20px;
+        top: 265px;
     }
-    .section__header__image {
-        height: 461px;
-        margin: 0 auto;
+    .image1__subtitle, .image3__subtitle  {
+        position: relative;
+        width: 196px;
+        height: 53px;
+        left: 20px;
+        top: 250px;     
     }
-    
-
-
-
-
-
-    .section__title {
-        width: 492px;
-        height: 605px;
+    .image1__title, .image3__title {
+        position: relative;
+        width: 196px;
+        height: 58px;
+        left: 20px;
+        top: 240px; 
+        line-height: 20px;
     }
-    
 }
+    
